@@ -38,8 +38,8 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "", propOrder = {
     "result"
 })
-@XmlRootElement(name = "getAddResponse")
-public class GetAddResponse {
+@XmlRootElement(name = "getMulResponse")
+public class GetMulResponse {
 
     @XmlElement(required = true)
     protected String result;

@@ -42,8 +42,8 @@ import javax.xml.bind.annotation.XmlType;
     "number1",
     "number2"
 })
-@XmlRootElement(name = "getAddRequest")
-public class GetAddRequest {
+@XmlRootElement(name = "getDivRequest")
+public class GetDivRequest {
 
     @XmlElement(required = true)
     protected String base;

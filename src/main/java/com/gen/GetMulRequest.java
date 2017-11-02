@@ -42,8 +42,8 @@ import javax.xml.bind.annotation.XmlType;
     "number1",
     "number2"
 })
-@XmlRootElement(name = "getAddRequest")
-public class GetAddRequest {
+@XmlRootElement(name = "getMulRequest")
+public class GetMulRequest {
 
     @XmlElement(required = true)
     protected String base;
